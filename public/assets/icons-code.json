@@ -1,0 +1,11 @@
+{
+    "icons": [{
+            "name": "github",
+            "code": "f113"
+        },
+        {
+            "name": "star",
+            "code": "e800"
+        }
+    ]
+}

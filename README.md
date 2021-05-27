@@ -1,6 +1,7 @@
 # Marco OSINT
+Este trabajo es una revisión y traducción del trabajo realizado por lockfare https://github.com/lockfale/OSINT-Framework
 
-http://osintframework.com
+Se han eliminado enlaces rotos herramientas obsoletas y las que realizan exactamente el mismo trabajo.  Limpiando y facilitando la busqueda de aquellas más relevantes.
 
 ## Notas
 Marco OSINT enfocado en recopilar información de herramientas o recursos gratuitos. La intención es ayudar a las personas a encontrar recursos OSINT gratuitos. Algunos de los sitios incluidos pueden requerir registro u ofrecer más datos por $$$, pero debería poder obtener al menos una parte de la información disponible sin costo alguno.
