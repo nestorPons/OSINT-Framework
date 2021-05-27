@@ -5,7 +5,16 @@
         },
         {
             "name": "star",
-            "code": "e800"
-        }
+            "code": "e801"
+        }, {
+            "name": "google",
+            "code": "f1a0"
+        }, {
+            "name": "login",
+            "code": "e802"
+        }, {
+            "name": "academy",
+            "code": "f19c"
+        },
     ]
 }

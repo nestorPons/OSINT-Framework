@@ -2,7 +2,6 @@
     "children": [{
             "name": "Nombres de usuario",
             "type": "folder",
-            "icon": "star",
             "children": [{
                     "name": "Motores de búsqueda",
                     "description": "Encuentra el mismo usuario en diferentes plataformas",
@@ -23,23 +22,32 @@
                             "url": "https://www.namecheckr.com/"
                         },
                         {
-                            "name": "WhatsMyName (T)",
+                            "name": "WhatsMyName",
                             "type": "url",
                             "url": "https://github.com/WebBreacher/WhatsMyName",
                             "status": "good",
-                            "icon": "github"
+                            "icon": [
+                                "github",
+                                "star"
+                            ]
                         },
                         {
-                            "name": "WhatsMyNameApp",
+                            "name": "WhatsMyNameApp appweb",
                             "type": "url",
                             "url": "https://whatsmyname.app/",
-                            "status": "good"
+                            "status": [
+                                "github",
+                                "star"
+                            ]
                         },
                         {
                             "name": "NameCheckup",
                             "type": "url",
                             "url": "https://namecheckup.com/",
-                            "status": "good"
+                            "status": [
+                                "github",
+                                "star"
+                            ]
                         },
                         {
                             "name": "Instant Username Search",
@@ -55,7 +63,7 @@
                             "name": "Shadowban",
                             "type": "url",
                             "url": "https://shadowban.eu",
-                            "description": "Busqueda de usuarios en Twiter"
+                            "description": "Busqueda de usuarios en Twitter"
                         },
                         {
                             "name": "Amazon (M)",
@@ -88,101 +96,82 @@
                     "name": "Buscadores",
                     "type": "folder",
                     "children": [{
-                            "name": "Melissa (R)",
+                            "name": "Melissa",
                             "type": "url",
                             "url": "http://www.melissadata.com/lookups/emails.asp",
-                            "description": "Verificador de cuentas de email"
+                            "description": "Verificador de cuentas de email",
+                            "icon": "login"
                         },
                         {
-                            "name": "Pipl (R)",
+                            "name": "Pipl",
                             "type": "url",
                             "url": "https://pipl.com/",
-                            "description": "Base de datos de usuarios, de pago"
+                            "description": "Base de datos de usuarios, de pago",
+                            "icon": "login"
                         },
                         {
-                            "name": "VoilaNorbert (R)",
+                            "name": "VoilaNorbert",
                             "type": "url",
                             "url": "https://www.voilanorbert.com/",
-                            "description": "Verificador de listas de emails de empresas"
+                            "description": "Verificador de listas de emails de empresas",
+                            "icon": "login"
                         },
                         {
-                            "name": "Infoga (T)",
+                            "name": "Infoga",
                             "type": "url",
                             "url": "https://github.com/m4ll0k/infoga",
-                            "description": "Herramienta de verificación busqueda información de dominios"
+                            "description": "Herramienta de verificación busqueda información de dominios",
+                            "icon": "github"
                         },
                         {
                             "name": "MailDB",
                             "type": "url",
-                            "url": "https://maildb.io/"
+                            "url": "https://maildb.io/",
+                            "description": "Buscador de emails en empresas",
+                            "icon": "login"
                         },
                         {
                             "name": "Skymem",
                             "type": "url",
-                            "url": "http://www.skymem.info/"
+                            "url": "http://www.skymem.info/",
+                            "icon": "Buscador de emails en empresas"
                         }
                     ]
                 },
                 {
                     "children": [{
-                            "name": "Corporatate Email Formats",
-                            "type": "url",
-                            "url": "https://sites.google.com/site/emails4corporations/home"
-                        },
-                        {
-                            "name": "Email Format",
-                            "type": "url",
-                            "url": "https://www.email-format.com/"
-                        },
-                        {
-                            "name": "Toofr",
-                            "type": "url",
-                            "url": "https://www.toofr.com/"
-                        },
-                        {
-                            "name": "Email Permutator",
-                            "type": "url",
-                            "url": "http://metricsparrow.com/toolkit/email-permutator/"
-                        },
-                        {
-                            "name": "OneLook Reverse Dictionary and Thesaurus",
-                            "type": "url",
-                            "url": "http://www.onelook.com/reverse-dictionary.shtml"
-                        }
-                    ],
-                    "name": "Common Email Formats",
-                    "type": "folder"
-                },
-                {
-                    "children": [{
                             "name": "MailTester",
                             "type": "url",
-                            "url": "http://mailtester.com/testmail.php"
+                            "url": "http://mailtester.com/testmail.php",
+                            "icon": "login",
+                            "description": "Verifica si el email existe"
                         },
                         {
                             "name": "VerifyEmail",
                             "type": "url",
-                            "url": "http://verify-email.org/"
-                        },
-                        {
-                            "name": "Email Validator",
-                            "type": "url",
-                            "url": "http://e-mailvalidator.com/index.php"
+                            "url": "http://verify-email.org/",
+                            "icon": "star",
+                            "status": "good",
+                            "description": "Verifica si el email existe"
                         },
                         {
                             "name": "BytePlant Email Validator",
                             "type": "url",
-                            "url": "http://www.email-validator.net/"
+                            "url": "http://www.email-validator.net/",
+                            "icon": "login"
                         },
                         {
                             "name": "Read Notify",
                             "type": "url",
-                            "url": "http://www.readnotify.com/"
+                            "url": "http://www.readnotify.com/",
+                            "icon": "login"
                         },
                         {
                             "name": "Email Reputation",
                             "type": "url",
-                            "url": "https://emailrep.io/"
+                            "url": "https://emailrep.io/",
+                            "icon": "star",
+                            "status": "good"
                         },
                         {
                             "name": "MailboxValidator",
@@ -190,19 +179,21 @@
                             "url": "https://www.mailboxvalidator.com/demo"
                         }
                     ],
-                    "name": "Email Verification",
+                    "name": "Verificadores de email",
                     "type": "folder"
                 },
                 {
                     "children": [{
                             "name": "Have I been pwned?",
                             "type": "url",
-                            "url": "https://haveibeenpwned.com/"
+                            "url": "https://haveibeenpwned.com/",
+                            "icon": "login"
                         },
                         {
                             "name": "DeHashed",
                             "type": "url",
-                            "url": "https://dehashed.com/"
+                            "url": "https://dehashed.com/",
+                            "icon": "login"
                         },
                         {
                             "name": "Intelligence X",
@@ -215,26 +206,12 @@
                             "url": "https://www.vigilante.pw/"
                         },
                         {
-                            "name": "Breach or Clear",
-                            "type": "url",
-                            "url": "http://breachorclear.jesterscourt.cc/"
-                        },
-                        {
                             "name": "Ashley Madison Emails",
                             "type": "url",
                             "url": "https://ashley.cynic.al/"
                         }
                     ],
-                    "name": "Breach Data",
-                    "type": "folder"
-                },
-                {
-                    "children": [{
-                        "name": "DNS Blackhole Lists",
-                        "type": "url",
-                        "url": "http://www.tcpiputils.com/dns-blackhole-list"
-                    }],
-                    "name": "Spam Reputation Lists",
+                    "name": "Brechas de seguridad",
                     "type": "folder"
                 },
                 {
@@ -243,7 +220,7 @@
                         "type": "url",
                         "url": "http://mxtoolbox.com/"
                     }],
-                    "name": "Mail Blacklists",
+                    "name": "Lista Negra de emails",
                     "type": "folder"
                 }
             ]
@@ -1484,6 +1461,8 @@
         {
             "children": [{
                     "children": [{
+                            "name": "Buscadores",
+                            "type": "folder",
                             "children": [{
                                     "name": "Google Images",
                                     "type": "url",
@@ -1604,9 +1583,7 @@
                                     "type": "url",
                                     "url": "https://saucenao.com/"
                                 }
-                            ],
-                            "name": "Search",
-                            "type": "folder"
+                            ]
                         },
                         {
                             "children": [{
@@ -2202,7 +2179,8 @@
                                 {
                                     "name": "Moz Profile Search",
                                     "type": "url",
-                                    "url": "https://moz.com/followerwonk/bio/?q=zero%20day&l=us"
+                                    "url": "https://moz.com/followerwonk/bio/?q=zero%20day&l=us",
+                                    "icon": "star"
                                 },
                                 {
                                     "name": "HootSuite",
@@ -2220,11 +2198,6 @@
                                     "url": "http://twopcharts.com/"
                                 },
                                 {
-                                    "name": "Twitter Email Test",
-                                    "type": "url",
-                                    "url": "https://pdevesian.eu/tet"
-                                },
-                                {
                                     "name": "Twoogel Search Engine",
                                     "type": "url",
                                     "url": "http://twoogel.com/"
@@ -2232,19 +2205,12 @@
                                 {
                                     "name": "Treeverse (T)",
                                     "type": "url",
-                                    "url": "https://github.com/paulgb/Treeverse"
+                                    "url": "https://github.com/paulgb/Treeverse",
+                                    "description": "Treeverse is a tool for visualizing and navigating Twitter conversation threads.",
+                                    "icon": "github"
                                 }
                             ],
-                            "name": "Search",
-                            "type": "folder"
-                        },
-                        {
-                            "children": [{
-                                "name": "Twicsy",
-                                "type": "url",
-                                "url": "http://twicsy.com/"
-                            }],
-                            "name": "Pictures",
+                            "name": "Buscadores",
                             "type": "folder"
                         },
                         {
@@ -2325,11 +2291,6 @@
                                 },
                                 {
                                     "children": [{
-                                            "name": "Tagboard",
-                                            "type": "url",
-                                            "url": "https://tagboard.com/"
-                                        },
-                                        {
                                             "name": "RiteTag",
                                             "type": "url",
                                             "url": "https://ritetag.com/"
@@ -2337,21 +2298,24 @@
                                         {
                                             "name": "Trendsmap",
                                             "type": "url",
-                                            "url": "http://trendsmap.com/"
+                                            "url": "http://trendsmap.com/",
+                                            "icon": "login"
                                         },
                                         {
                                             "name": "TAGSExplorer",
                                             "type": "url",
-                                            "url": "https://tags.hawksey.info/tagsexplorer/"
+                                            "url": "https://tags.hawksey.info/tagsexplorer/",
+                                            "icon": "login"
                                         }
                                     ],
-                                    "name": "Hashtag",
+                                    "name": "Hashtags",
                                     "type": "folder"
                                 },
                                 {
                                     "name": "Tweet Metadata",
                                     "type": "url",
-                                    "url": "http://online.wsj.com/public/resources/documents/TweetMetadata.pdf"
+                                    "url": "http://online.wsj.com/public/resources/documents/TweetMetadata.pdf",
+                                    "icon": "academy"
                                 },
                                 {
                                     "name": "Birdwatcher (T)",
@@ -2657,7 +2621,8 @@
                     "type": "url",
                     "url": "http://wiki.kenburbary.com/social-meda-monitoring-wiki",
                     "description": "Listado de urls para OSINT social"
-                }, {
+                },
+                {
                     "name": "gofindwho",
                     "type": "url",
                     "url": "https://gofindwho.com/",

@@ -88,6 +88,7 @@ function update(source) {
 
     nodeEnter
         .append("a")
+        .attr("font-family", "fontello")
         .attr("target", "_blank")
         .attr("xlink:href", function(d) {
             return d.url;
@@ -103,24 +104,25 @@ function update(source) {
 
         .attr("class", (d) => d.status)
         .text(function(d) {
-            return d.name;
+            let char = " ";
+            if (d.icon) {
+                _addicon = function(icon) {
+                    char += unescape("%u" + codes[icon]) + " ";
+                }
+                if (Array.isArray(d.icon)) {
+                    for (const o of d.icon) {
+                        _addicon(o)
+                    }
+                } else {
+                    _addicon(d.icon)
+                }
+            }
+            return d.name + char;
         });
 
     nodeEnter.append("svg:title").text(function(d) {
         return d.description;
     });
-
-    nodeEnter
-        .append("text") // Append a text element
-        .attr("font-family", "fontello")
-        .text(function(d) {
-            let char = "";
-            if (d.icon) {
-                let hex = codes[d.icon];
-                char = unescape("%u" + hex);
-            }
-            return char;
-        });
 
     // Transition nodes to their new position.
     var nodeUpdate = node

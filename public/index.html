@@ -4,9 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <link rel="stylesheet" href="css/fontello.css" />
-
     <link type="text/css" rel="stylesheet" href="css/arf.css" />
-    <script type="text/javascript" src="js/d3.v3.min.js"></script>
     <title>OSINT-ES</title>
 </head>
 
@@ -14,26 +12,33 @@
     <div id="body">
         <div id="header">
             ES OSINT
+            <small>Actualización 2021</small>
             <hr />
         </div>
-        <small>Actualización 2021</small>
     </div>
-
-    <script src="js/arf.js"></script>
-
     <div class="legend">
-        <p>
-            (T): Indica un enlace a una herramienta que debe instalarse y ejecutarse
-            localmente <br />
-            (D) - Google Dork, para más información:
-            <a href="https://en.wikipedia.org/wiki/Google_hacking">
-                Google Hacking
-            </a>
-            <br />
-            (R) - Requiere registro <br />
-            (M): indica una URL que contiene el término de búsqueda y la propia URL
-            debe editarse manualmente <br />
-        </p>
+        <i id="btn-legend" class="btn icon-info-circled"></i>
+        <div id="cnt-legend" class="content">
+            <h3>Leyenda</h3>
+            <p>
+                <i class="icon-star"></i> Herramienta recomendada
+                <br />
+                <i class="icon-github"></i> Indica un enlace a una herramienta que
+                debe instalarse y ejecutarse localmente
+                <br />
+                <i class="icon-google"></i> Google Dork, para más información:
+                <br />
+                <a href="https://en.wikipedia.org/wiki/Google_hacking">
+                    Google Hacking
+                </a>
+                <br>
+                <i class="icon-login"></i> Requiere registro
+                <br>
+                (M): indica una URL que contiene el término de búsqueda y la propia
+                URL debe editarse manualmente
+                <br>
+                <i class="icon-bank"></i> Material de aprendizaje
+        </div>
     </div>
 
     <h3>Notas</h3>
@@ -55,14 +60,18 @@
     Sígueme en Twitter: <a href="https://twitter.com/jnordine"> @jnordine </a>
     <br />
     Mira o protagoniza el proyecto en Github:
+    <a href="https://github.com/nestorPons/OSINT-Framework">
+        <i class="icon-github"></i>
+        Néstor Pons
+    </a>
+    <br />
+    Proyecto base:
     <a href="https://github.com/lockfale/osint-framework">
         https://github.com/lockfale/osint-framework
     </a>
-
-    <h3>Sugerencias, comentarios, comentarios</h3>
-    ¡Los comentarios o sugerencias de nuevas herramientas son bienvenidos! Por
-    favor, siéntase libre de comuníquese con Twitter o envíe un problema en
-    Github.
 </body>
+<script type="text/javascript" src="js/d3.v3.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/arf.js"></script>
 
 </html>
