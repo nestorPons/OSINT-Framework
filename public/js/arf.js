@@ -108,6 +108,7 @@ function update(source) {
             if (d.icon) {
                 _addicon = function(icon) {
                     char += unescape("%u" + codes[icon]) + " ";
+                    console.log(char)
                 }
                 if (Array.isArray(d.icon)) {
                     for (const o of d.icon) {
