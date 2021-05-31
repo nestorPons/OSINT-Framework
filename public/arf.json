@@ -2710,89 +2710,15 @@
                             "icon": ["login", "price"]
                         },
                         {
-                            "name": "ThatsThem",
-                            "type": "url",
-                            "url": "https://thatsthem.com/name-address-search"
-                        },
-                        {
                             "name": "ZoomInfo Directory",
                             "type": "url",
-                            "url": "http://www.zoominfo.com/people_directory/professional_profile/A-0-1"
-                        },
-                        {
-                            "name": "Zaba Search",
-                            "type": "url",
-                            "url": "http://www.zabasearch.com/"
-                        },
-                        {
-                            "name": "USSearch.com",
-                            "type": "url",
-                            "url": "http://www.ussearch.com/"
-                        },
-                        {
-                            "name": "Snoop Station",
-                            "type": "url",
-                            "url": "http://snoopstation.com/index.html"
+                            "url": "http://www.zoominfo.com/people_directory/professional_profile/A-0-1",
+                            "icon": ["login", "price"]
                         },
                         {
                             "name": "Melissa Data - People Finder (R)",
                             "type": "url",
                             "url": "http://www.melissadata.com/lookups/peoplefinder.asp"
-                        },
-                        {
-                            "name": "Advanced Background Checks",
-                            "type": "url",
-                            "url": "https://www.advancedbackgroundchecks.com/"
-                        },
-                        {
-                            "name": "SalesMaple Contact Search",
-                            "type": "url",
-                            "url": "https://www.salesmaple.com/contacts/#!/"
-                        },
-                        {
-                            "name": "PeekYou",
-                            "type": "url",
-                            "url": "http://www.peekyou.com/"
-                        },
-                        {
-                            "name": "PeepDB",
-                            "type": "url",
-                            "url": "http://www.peepdb.com/"
-                        },
-                        {
-                            "name": "Reverse Genie People",
-                            "type": "url",
-                            "url": "http://www.reversegenie.com/people.php"
-                        },
-                        {
-                            "name": "Wink People Search",
-                            "type": "url",
-                            "url": "http://itools.com/tool/wink-people-search"
-                        },
-                        {
-                            "name": "Radaris",
-                            "type": "url",
-                            "url": "http://radaris.com/"
-                        },
-                        {
-                            "name": "Profile Engine",
-                            "type": "url",
-                            "url": "http://profileengine.com/"
-                        },
-                        {
-                            "name": "Intelius",
-                            "type": "url",
-                            "url": "http://www.intelius.com/"
-                        },
-                        {
-                            "name": "InfoSpace",
-                            "type": "url",
-                            "url": "http://infospace.com/"
-                        },
-                        {
-                            "name": "Waatp",
-                            "type": "url",
-                            "url": "http://waatp.com/"
                         },
                         {
                             "name": "Webmii",
