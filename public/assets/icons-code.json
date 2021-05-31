@@ -16,5 +16,9 @@
             "name": "academy",
             "code": "f19c"
         },
+        {
+            "name": "price",
+            "cone": "f153"
+        }
     ]
 }
