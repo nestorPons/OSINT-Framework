@@ -1,5 +1,8 @@
 {
     "icons": [{
+            "name": "price",
+            "code": "f153"
+        }, {
             "name": "github",
             "code": "f113"
         },
@@ -17,8 +20,17 @@
             "code": "f19c"
         },
         {
-            "name": "price",
-            "cone": "f153"
+            "name": "search",
+            "code": "e804"
+        },
+        {
+            "name": "dolar",
+            "code": "f155"
+        },
+        {
+            "name": "info",
+            "code": "e803",
+            "color": "blue"
         }
     ]
 }

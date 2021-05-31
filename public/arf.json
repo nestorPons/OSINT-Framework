@@ -1756,11 +1756,11 @@
                                 "type": "url",
                                 "url": "http://www.geocreepy.com/"
                             }],
-                            "name": "Tools",
+                            "name": "Herramientas",
                             "type": "folder"
                         }
                     ],
-                    "name": "Images",
+                    "name": "Imagenes",
                     "type": "folder"
                 },
                 {
@@ -1831,7 +1831,7 @@
                                     "url": "http://video.search.yahoo.com/"
                                 }
                             ],
-                            "name": "Search",
+                            "name": "Busquedas",
                             "type": "folder"
                         },
                         {
@@ -1910,102 +1910,78 @@
                 },
                 {
                     "children": [{
-                            "children": [{
-                                    "children": [{
-                                            "name": "GoogleDocs (D)",
-                                            "type": "url",
-                                            "url": "https://www.google.com/?q=site:docs.google.com+%3Csearchterm%3E"
-                                        },
-                                        {
-                                            "name": "GoogleDrive (D)",
-                                            "type": "url",
-                                            "url": "https://www.google.com/?q=site:drive.google.com+%3Csearchterm%3E"
-                                        },
-                                        {
-                                            "name": "Dropbox (D)",
-                                            "type": "url",
-                                            "url": "https://www.google.com/?q=site:dl.dropbox.com+%3Csearchterm%3E"
-                                        },
-                                        {
-                                            "name": "Amazon AWS (D)",
-                                            "type": "url",
-                                            "url": "https://www.google.com/search?q=site:s3.amazonaws.com+%3Csearchterm%3E"
-                                        },
-                                        {
-                                            "name": "OneDrive (D)",
-                                            "type": "url",
-                                            "url": "https://www.google.com/search?safe=off&q=site:onedrive.live.com+%3Csearchterm%3E"
-                                        },
-                                        {
-                                            "name": "Cryptome (D)",
-                                            "type": "url",
-                                            "url": "https://www.google.com/search?q=site:cryptome.org+%3Csearchterm%3E"
-                                        }
-                                    ],
-                                    "name": "Common GoogleDorks",
-                                    "type": "folder"
-                                },
-                                {
-                                    "name": "Scribd",
-                                    "type": "url",
-                                    "url": "https://www.scribd.com/"
-                                },
-                                {
-                                    "name": "DocJax",
-                                    "type": "url",
-                                    "url": "http://www.docjax.com/"
-                                },
-                                {
-                                    "name": "WikiLeaks Search",
-                                    "type": "url",
-                                    "url": "https://search.wikileaks.org/advanced"
-                                },
-                                {
-                                    "name": "RECAP Court Doc Repo",
-                                    "type": "url",
-                                    "url": "http://archive.recapthelaw.org/"
-                                },
-                                {
-                                    "name": "filessoo.com",
-                                    "type": "url",
-                                    "url": "http://filessoo.com/"
-                                },
-                                {
-                                    "name": "Leaked Cables",
-                                    "type": "url",
-                                    "url": "https://search.wikileaks.org/plusd/"
-                                }
-                            ],
-                            "name": "Search",
-                            "type": "folder"
-                        },
-                        {
-                            "children": [{
-                                    "name": "Pastebin Trends",
-                                    "type": "url",
-                                    "url": "http://pastebin.com/trends"
-                                },
-                                {
-                                    "name": "Pastebin Alerts",
-                                    "type": "url",
-                                    "url": "http://andrewmohawk.com/pasteLert/"
-                                },
-                                {
-                                    "name": "Just Paste It",
-                                    "type": "url",
-                                    "url": "https://justpaste.it/"
-                                },
-                                {
-                                    "name": "Pastebin OSINT Harvester (T)",
-                                    "type": "url",
-                                    "url": "https://github.com/needmorecowbell/sniff-paste"
-                                }
-                            ],
-                            "name": "Paste Sites",
-                            "type": "folder"
-                        }
-                    ],
-                    "name": "Documents",
+                        "children": [{
+                                "children": [{
+                                        "name": "GoogleDocs",
+                                        "type": "url",
+                                        "url": "https://www.google.com/?q=site:docs.google.com+%3Csearchterm%3E",
+                                        "icon": "google"
+                                    },
+                                    {
+                                        "name": "GoogleDrive",
+                                        "type": "url",
+                                        "url": "https://www.google.com/?q=site:drive.google.com+%3Csearchterm%3E",
+                                        "icon": "google"
+                                    },
+                                    {
+                                        "name": "Amazon AWS",
+                                        "type": "url",
+                                        "url": "https://www.google.com/search?q=site:s3.amazonaws.com+%3Csearchterm%3E",
+                                        "icon": "google"
+                                    },
+                                    {
+                                        "name": "OneDrive",
+                                        "type": "url",
+                                        "url": "https://www.google.com/search?safe=off&q=site:onedrive.live.com+%3Csearchterm%3E",
+                                        "icon": "google"
+                                    },
+                                    {
+                                        "name": "Cryptome",
+                                        "type": "url",
+                                        "url": "https://www.google.com/search?q=site:cryptome.org+%3Csearchterm%3E",
+                                        "icon": "google"
+                                    }
+                                ],
+                                "name": "GoogleDorks comunes",
+                                "type": "folder",
+                                "icon": "google"
+                            },
+                            {
+                                "name": "Scribd",
+                                "type": "url",
+                                "url": "https://www.scribd.com/"
+                            },
+                            {
+                                "name": "DocJax",
+                                "type": "url",
+                                "url": "http://www.docjax.com/"
+                            },
+                            {
+                                "name": "WikiLeaks Search",
+                                "type": "url",
+                                "url": "https://search.wikileaks.org/advanced"
+                            },
+                            {
+                                "name": "RECAP Court Doc Repo",
+                                "type": "url",
+                                "url": "http://archive.recapthelaw.org/"
+                            },
+                            {
+                                "name": "filessoo.com",
+                                "type": "url",
+                                "url": "http://filessoo.com/"
+                            },
+                            {
+                                "name": "Leaked Cables",
+                                "type": "url",
+                                "url": "https://search.wikileaks.org/plusd/"
+                            }
+                        ],
+                        "name": "Buscadores",
+                        "type": "folder",
+                        "icon": "search"
+                    }],
+                    "name": "Documentos",
                     "type": "folder"
                 },
                 {
@@ -2039,7 +2015,7 @@
                     "type": "folder"
                 }
             ],
-            "name": "Images / Videos / Docs",
+            "name": "Imagenes / Videos / Docs",
             "type": "folder"
         },
         {
@@ -2397,44 +2373,33 @@
                                     "name": "Tweepsmap",
                                     "type": "url",
                                     "url": "http://tweepsmap.com/"
-                                },
-                                {
-                                    "name": "GeoTweet",
-                                    "type": "url",
-                                    "url": "http://geotweet.altervista.org/#"
-                                },
-                                {
+                                }, {
                                     "name": "MapD Tweetmap",
                                     "type": "url",
-                                    "url": "https://www.mapd.com/demos/tweetmap/"
+                                    "url": "https://www.mapd.com/demos/tweetmap/",
+                                    "icon": "star"
                                 }
                             ],
-                            "name": "Location / Mapping",
+                            "name": "Localización",
                             "type": "folder"
                         },
                         {
                             "children": [{
                                     "name": "All My Tweets",
                                     "type": "url",
-                                    "url": "https://www.allmytweets.net/connect/"
-                                },
-                                {
-                                    "name": "Deadbird",
-                                    "type": "url",
-                                    "url": "https://deadbird.site/"
-                                },
-                                {
-                                    "name": "Spoonbill",
-                                    "type": "url",
-                                    "url": "https://spoonbill.io"
+                                    "url": "https://www.allmytweets.net/connect/",
+                                    "description": "Vea todos sus tweets, me gusta, seguidores o línea de tiempo en una página.",
+                                    "icon": ["login", "info"]
                                 },
                                 {
                                     "name": "TweetVacuum (T)",
                                     "type": "url",
-                                    "url": "https://github.com/T3hUb3rK1tten/TweetVacuum"
+                                    "url": "https://github.com/T3hUb3rK1tten/TweetVacuum",
+                                    "description": "Extensión de Chrome para raspar la línea de tiempo completa de un usuario, sin pasar por el límite de tweets de la API de Twitter 3200.",
+                                    "icon": ["github", "info"]
                                 }
                             ],
-                            "name": "Archive / Deleted Tweets",
+                            "name": "Archivo / Tweets eliminados",
                             "type": "folder"
                         },
                         {
@@ -2495,12 +2460,15 @@
                         {
                             "name": "ScrapedIn",
                             "type": "url",
-                            "url": "https://github.com/dchrastil/ScrapedIn"
+                            "url": "https://github.com/dchrastil/ScrapedIn",
+                            "icon": ["github", "info"],
+                            "description": "herramienta para raspar LinkedIn"
                         },
                         {
                             "name": "InSpy",
                             "type": "url",
-                            "url": "https://github.com/leapsecurity/InSpy"
+                            "url": "https://github.com/leapsecurity/InSpy",
+                            "icon": "github"
                         }
                     ],
                     "name": "LinkedIn",
@@ -2518,31 +2486,6 @@
                             "url": "http://www.tumblr.com/tagged/search"
                         },
                         {
-                            "name": "TheHoodUp (NSFW)",
-                            "type": "url",
-                            "url": "http://thehoodup.com/board/"
-                        },
-                        {
-                            "name": "BlackPlanet.com - Member Find",
-                            "type": "url",
-                            "url": "http://www.blackplanet.com/user_search/index.html"
-                        },
-                        {
-                            "name": "MiGente (Latino)",
-                            "type": "url",
-                            "url": "http://www.migente.com/user_search/index.html"
-                        },
-                        {
-                            "name": "Asian Avenue",
-                            "type": "url",
-                            "url": "http://www.asianave.com/user_search/index.html"
-                        },
-                        {
-                            "name": "Orkut (Brazil)",
-                            "type": "url",
-                            "url": "https://orkut.google.com/"
-                        },
-                        {
                             "name": "Odnoklassniki",
                             "type": "url",
                             "url": "http://ok.ru/"
@@ -2550,47 +2493,34 @@
                         {
                             "name": "raven (T)",
                             "type": "url",
-                            "url": "https://github.com/0x09AL/raven"
-                        },
-                        {
-                            "name": "Delicious",
-                            "type": "url",
-                            "url": "https://del.icio.us/"
+                            "url": "https://github.com/0x09AL/raven",
+                            "login": ["github", "info"],
+                            "description": "Raven es una herramienta de recopilación de información de Linkedin que pueden utilizar los pentesters para recopilar información sobre los empleados de una organización que utilizan Linkedin."
                         }
                     ],
-                    "name": "Other Social Networks",
+                    "name": "Otras redes Sociales",
                     "type": "folder"
                 },
                 {
                     "children": [{
                             "name": "Social Searcher",
                             "type": "url",
-                            "url": "http://www.social-searcher.com/"
+                            "url": "http://www.social-searcher.com/",
+                            "icon": "star"
                         },
                         {
                             "name": "Google Social Search",
                             "type": "url",
-                            "url": "http://www.social-searcher.com/google-social-search/"
-                        },
-                        {
-                            "name": "Periscope Search",
-                            "type": "url",
-                            "url": "http://www.perisearch.net/"
-                        },
-                        {
-                            "name": "Periscope with known Username (M)",
-                            "type": "url",
-                            "url": "https://www.periscope.tv/%3Cusername%3E"
-                        },
-                        {
-                            "name": "SocialBlade.com",
-                            "type": "url",
-                            "url": "http://socialblade.com/"
+                            "url": "http://www.social-searcher.com/google-social-search/",
+                            "icon": ["star", "info"],
+                            "description": "Busqueda en redes sociales"
                         },
                         {
                             "name": "Talkwalker Social Media Search (R)",
                             "type": "url",
-                            "url": "https://www.talkwalker.com/social-media-analytics-search"
+                            "url": "https://www.talkwalker.com/social-media-analytics-search",
+                            "icon": ["login", "info"],
+                            "description": "Buscador de hastags"
                         },
                         {
                             "name": "BuzzSumo Most Shared",
@@ -2600,12 +2530,14 @@
                         {
                             "name": "PinGroupie",
                             "type": "url",
-                            "url": "http://pingroupie.com/"
+                            "url": "http://pingroupie.com/",
+                            "icon": "login"
                         },
                         {
                             "name": "Searchlr",
                             "type": "url",
-                            "url": "http://searchlr.net/"
+                            "url": "http://searchlr.net/",
+                            "icon": "star"
                         },
                         {
                             "name": "Google CSE for Telegram links",
@@ -2613,20 +2545,21 @@
                             "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg"
                         }
                     ],
-                    "name": "Search",
+                    "name": "Buscadores",
                     "type": "folder"
                 },
                 {
                     "name": "Social Media Monitoring Wiki",
                     "type": "url",
                     "url": "http://wiki.kenburbary.com/social-meda-monitoring-wiki",
+                    "icon": "info",
                     "description": "Listado de urls para OSINT social"
                 },
                 {
                     "name": "gofindwho",
                     "type": "url",
                     "url": "https://gofindwho.com/",
-                    "status": "good"
+                    "icon": "star"
                 }
             ],
             "name": "Redes sociales",
@@ -2634,31 +2567,6 @@
         },
         {
             "children": [{
-                    "children": [{
-                            "name": "Skype Web Client",
-                            "type": "url",
-                            "url": "https://web.skype.com/"
-                        },
-                        {
-                            "name": "MostwantedHF",
-                            "type": "url",
-                            "url": "http://mostwantedhf.info/index.php"
-                        },
-                        {
-                            "name": "Skypegrab",
-                            "type": "url",
-                            "url": "http://skypegrab.net/oldip.php"
-                        },
-                        {
-                            "name": "Skype Resolver 2019",
-                            "type": "url",
-                            "url": "http://www.skypeipresolver.net/"
-                        }
-                    ],
-                    "name": "Skype",
-                    "type": "folder"
-                },
-                {
                     "children": [{
                         "name": "Snapchat Leak Checker",
                         "type": "url",
@@ -2675,177 +2583,92 @@
                     }],
                     "name": "Kik",
                     "type": "folder"
-                },
-                {
-                    "children": [{
-                        "name": "YikMap",
-                        "type": "url",
-                        "url": "http://yikmap.com/"
-                    }],
-                    "name": "Yikyak",
-                    "type": "folder"
                 }
             ],
-            "name": "Instant Messaging",
+            "name": "Mensajeria",
             "type": "folder"
         },
         {
             "children": [{
-                    "children": [{
-                            "name": "Infopersonas",
-                            "type": "url",
-                            "url": "http://www.infopersonas.com//",
-                            "icon": ["login", "start"]
-                        },
-                        {
-                            "name": "Pipl",
-                            "type": "url",
-                            "url": "https://pipl.com/",
-                            "icon": ["login", "price"]
-                        },
-                        {
-                            "name": "Spokeo People Search",
-                            "type": "url",
-                            "url": "http://www.spokeo.com/",
-                            "icon": ["login", "price"]
-                        },
-                        {
-                            "name": "ZoomInfo Directory",
-                            "type": "url",
-                            "url": "http://www.zoominfo.com/people_directory/professional_profile/A-0-1",
-                            "icon": ["login", "price"]
-                        },
-                        {
-                            "name": "Melissa Data - People Finder (R)",
-                            "type": "url",
-                            "url": "http://www.melissadata.com/lookups/peoplefinder.asp"
-                        },
-                        {
-                            "name": "Webmii",
-                            "type": "url",
-                            "url": "http://webmii.com/"
-                        },
-                        {
-                            "name": "Snitch.name",
-                            "type": "url",
-                            "url": "http://snitch.name/"
-                        },
-                        {
-                            "name": "Lullar",
-                            "type": "url",
-                            "url": "http://com.lullar.com/"
-                        },
-                        {
-                            "name": "Yasni",
-                            "type": "url",
-                            "url": "http://www.yasni.com/"
-                        },
-                        {
-                            "name": "findmypast.com",
-                            "type": "url",
-                            "url": "http://search.findmypast.com/search-world-records"
-                        },
-                        {
-                            "name": "HowManyOfMe",
-                            "type": "url",
-                            "url": "http://howmanyofme.com/search/"
-                        },
-                        {
-                            "name": "FamilySearch.org",
-                            "type": "url",
-                            "url": "https://familysearch.org/search/"
-                        },
-                        {
-                            "name": "Ancestry.com",
-                            "type": "url",
-                            "url": "http://search.ancestry.com/"
-                        },
-                        {
-                            "name": "SearchBug",
-                            "type": "url",
-                            "url": "http://www.searchbug.com/#pageTop"
-                        },
-                        {
-                            "name": "Nuwber",
-                            "type": "url",
-                            "url": "https://nuwber.com/"
-                        },
-                        {
-                            "name": "eVerify",
-                            "type": "url",
-                            "url": "http://www.everify.com/"
-                        },
-                        {
-                            "name": "Genealogy.com",
-                            "type": "url",
-                            "url": "http://www.genealogy.com/"
-                        },
-                        {
-                            "name": "The New Ultimates",
-                            "type": "url",
-                            "url": "http://www.newultimates.com/"
-                        },
-                        {
-                            "name": "Ark",
-                            "type": "url",
-                            "url": "http://ark.com/landing"
-                        },
-                        {
-                            "name": "Sorted By Name",
-                            "type": "url",
-                            "url": "http://sortedbyname.com/"
-                        },
-                        {
-                            "name": "Fast People Search",
-                            "type": "url",
-                            "url": "https://www.fastpeoplesearch.com/"
-                        },
-                        {
-                            "name": "Been Verified",
-                            "type": "url",
-                            "url": "https://www.beenverified.com/",
-                            "icon": "login"
-                        }
-                    ],
-                    "name": "Búsqueda general",
-                    "type": "folder"
-                },
-                {
-                    "children": [{
-                            "name": "The Knot",
-                            "type": "url",
-                            "url": "https://www.theknot.com/registry/couplesearch"
-                        },
-                        {
-                            "name": "Registry Finder",
-                            "type": "url",
-                            "url": "https://www.registryfinder.com/"
-                        },
-                        {
-                            "name": "My Registry",
-                            "type": "url",
-                            "url": "https://www.myregistry.com/"
-                        },
-                        {
-                            "name": "Amazon Registry Search",
-                            "type": "url",
-                            "url": "https://www.amazon.com/gp/registry/search"
-                        },
-                        {
-                            "name": "Bed, Bath, & Beyond Gift Registry",
-                            "type": "url",
-                            "url": "https://www.bedbathandbeyond.com/store/giftregistry/registry_search_guest.jsp"
-                        },
-                        {
-                            "name": "The Bump",
-                            "type": "url",
-                            "url": "https://registry.thebump.com/babyregistrysearch"
-                        }
-                    ],
-                    "name": "Registros",
-                    "type": "folder"
-                }
-            ],
+                "children": [{
+                        "name": "Infopersonas",
+                        "type": "url",
+                        "url": "http://www.infopersonas.com//",
+                        "icon": ["login", "star"]
+                    },
+                    {
+                        "name": "Pipl",
+                        "type": "url",
+                        "url": "https://pipl.com/",
+                        "icon": ["login", "dolar"]
+                    },
+                    {
+                        "name": "Spokeo People Search",
+                        "type": "url",
+                        "url": "http://www.spokeo.com/",
+                        "icon": ["login", "price"]
+                    },
+                    {
+                        "name": "ZoomInfo Directory",
+                        "type": "url",
+                        "url": "http://www.zoominfo.com/people_directory/professional_profile/A-0-1",
+                        "icon": ["login", "price"]
+                    },
+                    {
+                        "name": "Webmii",
+                        "type": "url",
+                        "url": "http://webmii.com/",
+                        "icon": "star"
+                    },
+                    {
+                        "name": "Lullar",
+                        "type": "url",
+                        "url": "http://com.lullar.com/",
+                        "icon": "star",
+                        "description": "Buscador en redes sociales"
+                    },
+                    {
+                        "name": "Yasni",
+                        "type": "url",
+                        "url": "http://www.yasni.com/",
+                        "icon": "login"
+                    },
+                    {
+                        "name": "findmypast.com",
+                        "type": "url",
+                        "url": "http://search.findmypast.com/search-world-records",
+                        "icon": "login"
+                    },
+                    {
+                        "name": "HowManyOfMe",
+                        "type": "url",
+                        "url": "http://howmanyofme.com/search/"
+                    },
+                    {
+                        "name": "FamilySearch.org",
+                        "type": "url",
+                        "url": "https://familysearch.org/search/"
+                    },
+                    {
+                        "name": "SearchBug",
+                        "type": "url",
+                        "url": "http://www.searchbug.com"
+                    },
+                    {
+                        "name": "Genealogy.com",
+                        "type": "url",
+                        "url": "http://www.genealogy.com/"
+                    },
+                    {
+                        "name": "Been Verified",
+                        "type": "url",
+                        "url": "https://www.beenverified.com/",
+                        "icon": "login"
+                    }
+                ],
+                "name": "Búsqueda general",
+                "type": "folder"
+            }],
             "name": "Personas",
             "type": "folder"
         },
@@ -3465,7 +3288,7 @@
                             "name": "Informes de verhículos",
                             "type": "url",
                             "url": "https://sede.dgt.gob.es/es/vehiculos/informe-de-vehiculo",
-                            "icon": "start"
+                            "icon": "star"
                         },
                         {
                             "name": "VIN Decoderz",
