@@ -28,9 +28,12 @@
             "code": "f155"
         },
         {
+            "name": "youtube",
+            "code": "f16a"
+        },
+        {
             "name": "info",
-            "code": "e803",
-            "color": "blue"
+            "code": "e803"
         }
     ]
 }
