@@ -48,11 +48,6 @@
                                 "github",
                                 "star"
                             ]
-                        },
-                        {
-                            "name": "Instant Username Search",
-                            "type": "url",
-                            "url": "https://instantusername.com/"
                         }
                     ]
                 },
@@ -3260,6 +3255,25 @@
                     "url": "https://www.suncalc.org/",
                     "description": "Herramienta para saber la posición del Sol en un momento dado",
                     "icon": ["star", "info"]
+                },
+                {
+                    "name": "Mapeadores",
+                    "type": "folder",
+                    "children": [{
+                            "name": "BatchGeo",
+                            "type": "url",
+                            "url": "https://batchgeo.com/",
+                            "description": "Mapeador mediante un archivo de coordenadas",
+                            "icon": ["info", "login"]
+                        },
+                        {
+                            "name": "ZeeMaps",
+                            "type": "url",
+                            "url": "https://www.zeemaps.com/",
+                            "description": "Mapeador mediante un archivo de coordenadas",
+                            "icon": ["info", "login"]
+                        }
+                    ]
                 }
             ],
             "name": "Mapas y geolocalización",
@@ -4104,21 +4118,6 @@
                             },
                             {
                                 "children": [{
-                                        "name": "Instagram (T)",
-                                        "type": "url",
-                                        "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
-                                    },
-                                    {
-                                        "name": "Flickr (T)",
-                                        "type": "url",
-                                        "url": "https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr"
-                                    }
-                                ],
-                                "name": "Pictures",
-                                "type": "folder"
-                            },
-                            {
-                                "children": [{
                                         "name": "Periscope (T)",
                                         "type": "url",
                                         "url": "https://play.google.com/store/apps/details?id=tv.periscope.android"
@@ -4151,15 +4150,6 @@
                 "type": "folder"
             }],
             "name": "Mobile Emulation",
-            "type": "folder"
-        },
-        {
-            "children": [{
-                "name": "Global Terrorism Database",
-                "type": "url",
-                "url": "http://www.start.umd.edu/gtd/"
-            }],
-            "name": "Terrorism",
             "type": "folder"
         },
         {
@@ -5258,6 +5248,8 @@
             "type": "folder"
         },
         {
+            "name": "Seguridad",
+            "type": "folder",
             "children": [{
                     "children": [{
                             "name": "Fake Name Generator",
@@ -5302,41 +5294,6 @@
                                 }
                             ],
                             "name": "TOR",
-                            "type": "folder"
-                        },
-                        {
-                            "children": [{
-                                    "name": "DeepDotWeb VPN Comparison Chart",
-                                    "type": "url",
-                                    "url": "https://www.deepdotweb.com/vpn-comparison-chart/"
-                                },
-                                {
-                                    "name": "VPN Comparisons - That One Privacy Site",
-                                    "type": "url",
-                                    "url": "https://thatoneprivacysite.net/"
-                                }
-                            ],
-                            "name": "Anonymous VPNs",
-                            "type": "folder"
-                        },
-                        {
-                            "children": [{
-                                    "name": "UserAgentString.com",
-                                    "type": "url",
-                                    "url": "http://www.useragentstring.com/pages/useragentstring.php"
-                                },
-                                {
-                                    "name": "WhatIsMyBrowser.com",
-                                    "type": "url",
-                                    "url": "https://www.whatismybrowser.com/"
-                                },
-                                {
-                                    "name": "User Agent String Decoder",
-                                    "type": "url",
-                                    "url": "http://tools.tracemyip.org/user-agent-string-decoder/"
-                                }
-                            ],
-                            "name": "Spoof User-Agent",
                             "type": "folder"
                         },
                         {
@@ -5400,288 +5357,92 @@
                             "type": "folder"
                         },
                         {
-                            "children": [{
-                                    "name": "Browser Statistics",
-                                    "type": "url",
-                                    "url": "https://www.w3schools.com/browsers/default.asp"
-                                },
-                                {
-                                    "name": "WhatsMyBrowser.org",
-                                    "type": "url",
-                                    "url": "http://www.whatsmybrowser.org/"
-                                },
-                                {
-                                    "name": "What browser am I using.co",
-                                    "type": "url",
-                                    "url": "http://www.whatbrowseramiusing.co/"
-                                },
-                                {
-                                    "name": "What Browser?",
-                                    "type": "url",
-                                    "url": "https://whatbrowser.org/"
-                                },
-                                {
-                                    "name": "BrowserSpy.dk Browser Information",
-                                    "type": "url",
-                                    "url": "http://browserspy.dk/browser.php"
-                                },
-                                {
-                                    "name": "Browserscope",
-                                    "type": "url",
-                                    "url": "http://www.browserscope.org/"
-                                }
-                            ],
-                            "name": "Browser Tests",
-                            "type": "folder"
-                        },
-                        {
-                            "children": [{
-                                    "name": "Proxychecker",
-                                    "type": "url",
-                                    "url": "https://proxycheck.haschek.at/"
-                                },
-                                {
-                                    "name": "IP2Proxy",
-                                    "type": "url",
-                                    "url": "https://www.ip2proxy.com/"
-                                }
-                            ],
-                            "name": "Proxy Tests",
-                            "type": "folder"
-                        },
-                        {
-                            "name": "NoScript (T)",
+                            "name": "What browser am I using.co",
                             "type": "url",
-                            "url": "https://noscript.net/"
+                            "url": "http://www.whatbrowseramiusing.co/"
                         },
                         {
-                            "name": "Firefox-debloat",
+                            "name": "BrowserSpy.dk Browser Information",
                             "type": "url",
-                            "url": "https://github.com/amq/firefox-debloat"
+                            "url": "http://browserspy.dk/browser.php"
                         },
                         {
                             "name": "Browser Leaks",
                             "type": "url",
-                            "url": "https://browserleaks.com/"
-                        },
-                        {
-                            "name": "Self-Destructing Cookies (T)",
-                            "type": "url",
-                            "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/"
-                        },
-                        {
-                            "name": "BrowserSpy.dk",
-                            "type": "url",
-                            "url": "http://browserspy.dk/"
-                        },
-                        {
-                            "name": "LocaBrowser.com",
-                            "type": "url",
-                            "url": "http://www.locabrowser.com"
+                            "url": "https://browserleaks.com/",
+                            "icon": ["info"],
+                            "description": "Herramienta de testeo de nuestro navegador"
                         }
                     ],
-                    "name": "Anonymous Browsing",
+                    "name": "Navegación anónima",
                     "type": "folder"
                 },
                 {
                     "children": [{
                             "name": "Just Delete Me",
                             "type": "url",
-                            "url": "http://backgroundchecks.org/justdeleteme/"
+                            "url": "http://backgroundchecks.org/justdeleteme/",
+                            "icon": ["info"],
+                            "description": "Listado de la dificultad para darse de baja en varios servicios"
                         },
                         {
-                            "name": "Accountkiller.com",
+                            "name": "coveryourtracks",
                             "type": "url",
-                            "url": "https://www.accountkiller.com/en"
-                        },
-                        {
-                            "name": "The Internet Privacy Handbook",
+                            "url": "https://coveryourtracks.eff.org/",
+                            "icon": ["info"],
+                            "description": "Testeo de guella digital"
+                        }, {
+                            "name": "The Many Hats Club - Listado de recursos",
                             "type": "url",
-                            "url": "https://www.safeshepherd.com/handbook"
-                        },
-                        {
-                            "name": "OptOut Credit Prescreen",
+                            "url": "https://themanyhats.club/centralised-place-for-privacy-resources/",
+                            "icon": ["info"],
+                            "description": "Este será un lugar centralizado donde me vincularé a los recursos relacionados con la privacidad, puedo proporcionar una pequeña descripción y los recursos pueden variar desde VPN hasta administradores de contraseñas y alojamiento a prueba de balas."
+                        }, {
+                            "name": "Anonymouth - Anonimizador de documentos",
                             "type": "url",
-                            "url": "https://www.optoutprescreen.com/?rf=t"
-                        },
-                        {
-                            "name": "Credit Freeze",
-                            "type": "url",
-                            "url": "https://inteltechniques.com/blog/2018/09/28/complete-credit-freeze-tutorial-update/"
-                        },
-                        {
-                            "name": "Fake US Identities",
-                            "type": "url",
-                            "url": "http://xdd2.org/"
-                        },
-                        {
-                            "name": "Social Media Fingerprint",
-                            "type": "url",
-                            "url": "https://robinlinus.github.io/socialmedia-leak/"
-                        },
-                        {
-                            "name": "Privacy Tools",
-                            "type": "url",
-                            "url": "https://www.privacytools.io/"
-                        },
-                        {
-                            "name": "Panopticlick",
-                            "type": "url",
-                            "url": "https://panopticlick.eff.org/"
-                        },
-                        {
-                            "name": "Intel Techniques - Hiding from the Internet",
-                            "type": "url",
-                            "url": "https://inteltechniques.com/data/workbook.pdf"
-                        },
-                        {
-                            "name": "The Many Hats Club - Privacy Resources",
-                            "type": "url",
-                            "url": "https://themanyhats.club/centralised-place-for-privacy-resources/"
+                            "url": "https://github.com/psal/anonymouth",
+                            "icon": ["github", "info"],
+                            "description": "Anonimizador de documentos en JAVA"
                         }
                     ],
-                    "name": "Privacy / Clean Up",
-                    "type": "folder"
-                },
-                {
-                    "children": [{
-                        "name": "Anonymouth - Document Anonymization (T)",
-                        "type": "url",
-                        "url": "https://github.com/psal/anonymouth"
-                    }],
-                    "name": "Metadata / Style",
+                    "name": "Privacidad",
                     "type": "folder"
                 }
-            ],
-            "name": "OpSec",
-            "type": "folder"
+            ]
         },
         {
-            "children": [{
-                    "children": [{
-                            "name": "Hunchly (T)",
-                            "type": "url",
-                            "url": "http://www.hunch.ly/"
-                        },
-                        {
-                            "name": "Fiddler (T)",
-                            "type": "url",
-                            "url": "https://www.telerik.com/download/fiddler"
-                        },
-                        {
-                            "name": "Burp Suite (T)",
-                            "type": "url",
-                            "url": "https://portswigger.net/burp/download.html"
-                        },
-                        {
-                            "name": "Page2Images (T)",
-                            "type": "url",
-                            "url": "http://www.page2images.com/URL-Live-Website-Screenshot-Generator"
-                        },
-                        {
-                            "name": "Archive.is",
-                            "type": "url",
-                            "url": "http://archive.is/"
-                        },
-                        {
-                            "name": "Web Page Saver",
-                            "type": "url",
-                            "url": "https://www.magnetforensics.com/free-tool-web-page-saver/"
-                        },
-                        {
-                            "name": "Snapper (T)",
-                            "type": "url",
-                            "url": "https://github.com/dxa4481/Snapper"
-                        },
-                        {
-                            "name": "Full Page Screen Capture Chrome Extension (T)",
-                            "type": "url",
-                            "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension"
-                        }
-                    ],
-                    "name": "Web Browsing",
-                    "type": "folder"
-                },
-                {
-                    "children": [{
-                            "name": "FRAPS (T)",
-                            "type": "url",
-                            "url": "http://www.fraps.com/"
-                        },
-                        {
-                            "name": "ShareX (T)",
-                            "type": "url",
-                            "url": "https://getsharex.com/"
-                        },
-                        {
-                            "name": "Greenshot (T)",
-                            "type": "url",
-                            "url": "https://getgreenshot.org/"
-                        }
-                    ],
-                    "name": "Screen Capture",
-                    "type": "folder"
-                },
-                {
-                    "children": [{
-                            "name": "BatchGeo",
-                            "type": "url",
-                            "url": "https://batchgeo.com/"
-                        },
-                        {
-                            "name": "Google Street View - Hyperlapse",
-                            "type": "url",
-                            "url": "https://github.com/TeehanLax/Hyperlapse.js"
-                        },
-                        {
-                            "name": "Teehan+Lax Labs - Hyperlapse",
-                            "type": "url",
-                            "url": "http://labs.teehanlax.com/project/hyperlapse"
-                        },
-                        {
-                            "name": "ZeeMaps",
-                            "type": "url",
-                            "url": "https://www.zeemaps.com/"
-                        }
-                    ],
-                    "name": "Map Locations",
-                    "type": "folder"
-                },
-                {
-                    "name": "Timeline JS3",
-                    "type": "url",
-                    "url": "http://timeline.knightlab.com/"
-                }
-            ],
-            "name": "Documentacion",
-            "type": "folder"
-        },
-        {
-            "children": [{
-                    "name": "Open Source Intelligence Techniques",
-                    "type": "url",
-                    "url": "https://inteltechniques.com/"
-                },
-                {
-                    "name": "NetBootCamp",
-                    "type": "url",
-                    "url": "https://netbootcamp.org/trainingprogram/"
-                },
-                {
-                    "name": "Cómo averiguar la fecha y hora de una fotografía",
-                    "type": "url",
-                    "url": "https://www.youtube.com/watch?v=vQRo5TKvoWs",
-                    "icon": "youtube"
-                },
-                {
-                    "name": "Smart Questions",
-                    "type": "url",
-                    "url": "http://www.catb.org/esr/faqs/smart-questions.html"
-                }
-            ],
-            "name": "Entrenamiento",
+            "name": "Capturadores Web",
             "type": "folder",
-            "icon": "academy"
+            "children": [{
+                    "name": "Page2Images (T)",
+                    "type": "url",
+                    "url": "http://www.page2images.com/URL-Live-Website-Screenshot-Generator",
+                    "icon": ["info"],
+                    "description": "Instantaneas de paginas web"
+
+                },
+                {
+                    "name": "Archive.is",
+                    "type": "url",
+                    "url": "http://archive.is/",
+                    "icon": ["info"],
+                    "description": "Toma una instantánea de la página que siempre va a estar en línea incluso si la original desaparece."
+                },
+                {
+                    "name": "Snapper",
+                    "type": "url",
+                    "url": "https://github.com/dxa4481/Snapper",
+                    "icon": ["github", "info"],
+                    "description": "Una herramienta de seguridad para capturar capturas de pantalla de muchos servidores web. Esta herramienta es útil después de la enumeración de DNS o después de enumerar los servidores web a través de nmap o nessus."
+                },
+                {
+                    "name": "Captura de pantalla de página completa",
+                    "type": "url",
+                    "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension",
+                    "icon": ["github", "info"],
+                    "description": "Una simple extensión de Google Chrome que toma una captura de pantalla de una página web completa. Todas las extensiones que probé no pudieron hacer esto en Chrome 22 en Mac OSX Lion. Entonces, construí este para hacerlo de manera confiable. (No probado, todavía, en otras configuraciones)."
+                }
+            ]
         }
     ],
     "name": "ES-OSINT",
