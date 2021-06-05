@@ -1,20 +1,24 @@
 {
-    "icons": [{
-            "name": "github",
-            "code": "f113"
-        },
-        {
-            "name": "star",
-            "code": "e801"
-        }, {
-            "name": "google",
-            "code": "f1a0"
-        }, {
-            "name": "login",
-            "code": "e802"
-        }, {
-            "name": "academy",
-            "code": "f19c"
-        }
-    ]
+  "icons": [
+    {
+      "name": "github",
+      "code": "f113"
+    },
+    {
+      "name": "star",
+      "code": "e801"
+    },
+    {
+      "name": "google",
+      "code": "f1a0"
+    },
+    {
+      "name": "login",
+      "code": "e802"
+    },
+    {
+      "name": "academy",
+      "code": "f19c"
+    }
+  ]
 }
