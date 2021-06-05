@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "icons": [
     {
       "name": "github",
@@ -22,3 +23,43 @@
     }
   ]
 }
+=======
+    "icons": [{
+            "name": "price",
+            "code": "f153"
+        }, {
+            "name": "github",
+            "code": "f113"
+        },
+        {
+            "name": "star",
+            "code": "e801"
+        }, {
+            "name": "google",
+            "code": "f1a0"
+        }, {
+            "name": "login",
+            "code": "e802"
+        }, {
+            "name": "academy",
+            "code": "f19c"
+        },
+        {
+            "name": "search",
+            "code": "e804"
+        },
+        {
+            "name": "dolar",
+            "code": "f155"
+        },
+        {
+            "name": "youtube",
+            "code": "f16a"
+        },
+        {
+            "name": "info",
+            "code": "e803"
+        }
+    ]
+}
+>>>>>>> 9dae71579dd9e047a1b6c73f6a84b2564973665e
