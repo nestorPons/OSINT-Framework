@@ -21,7 +21,7 @@ var vis = d3
     .append("svg:g")
     .attr("transform", "translate(" + margin[3] + "," + margin[0] + ")");
 
-d3.json("/assets/icons-code.json", function(json) {
+d3.json("./assets/icons-code.json", function(json) {
     for (const d of json.icons) {
         codes[d.name] = d.code;
     }
